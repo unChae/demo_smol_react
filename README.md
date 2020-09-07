@@ -15,3 +15,4 @@
 
   - 2020.09.07
     - routing Home/LoginInstagram/InstagramView
+    - completed establishment of Instagram data import process
