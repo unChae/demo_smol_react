@@ -1,0 +1,59 @@
+ul {
+  padding:0;
+  list-style:none;
+}
+
+.ig_li {
+  width:300px; 
+  height:374px; 
+  margin:10px; 
+  float:left;
+  position: relative;
+  background: black;
+}
+
+.ig_card {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  background: white;
+  width:300px; 
+  height:374px; 
+  text-align: center;
+  /* transition으로 animation 효과 생성 */
+  transition: 0.5s all ease;
+}
+
+/* ig_card에 마우스를 올리면 투명도를 0.9로 */
+.ig_card:hover {
+  opacity: 0.9;
+}
+
+/* 이미지는 세로기준 중앙 정렬 */
+.ig_img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 제목 & 날짜 레이아웃을 세로기준 중앙 정렬 */
+.ig_content {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ig_title {
+  width: 240px;
+  font-size:14px;
+  font-weight: bold;
+}
+
+.ig_timestamp {
+  font-size: 12px;
+  color: rgb(73, 73, 73);
+}
