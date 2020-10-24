@@ -1,4 +1,4 @@
-# demo_smol_react
+# 인스타그램 api 검수용 웹 페이지
 
 ##### summary
   - front-end of demo-smol-project
